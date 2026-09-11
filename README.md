@@ -11,7 +11,7 @@ labs, experimentation, and research.
 ## Projects
 
 ### GRC
-- PowerShell Malware Triage & Security Assessment
+- PowerShell Malware Triage / Static Analysis
 
 ### Malware Analysis
 - ...
