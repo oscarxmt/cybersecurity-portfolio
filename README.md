@@ -8,7 +8,7 @@ I'm a student building hands-on experience through personal labs, security inves
 
 Hands-on analysis of suspicious and malicious files, with a focus on understanding **execution, persistence, network activity, obfuscation, and defensive controls**.
 
-### [PowerShell Fake Download Dropper](https://github.com/oscarxmt/cybersecurity-portfolio/tree/main/Malware-Analysis/powershell-fake-download-dropper/report))
+### [PowerShell Fake Download Dropper](./Malware-Analysis/powershell-fake-download-dropper))
 
 **Malware triage and security assessment of a PowerShell-based fake download/dropper.**
 
@@ -23,7 +23,7 @@ The investigation covers:
 * Defensive controls and mitigations
 * GRC-oriented risk assessment
 
-📄 **[View Analysis →](./Malware-Analysis/powershell-fake-download-dropper/report/Oscar_Powershell_Malware_Analysis.pdf)**
+📄 **[Click Me To View Full Analysis](./Malware-Analysis/powershell-fake-download-dropper/report/Oscar_Powershell_Malware_Analysis.pdf)**
 
 ---
 
