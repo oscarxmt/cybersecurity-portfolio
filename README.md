@@ -8,7 +8,7 @@ I'm a student building hands-on experience through personal labs, security inves
 
 Hands-on analysis of suspicious and malicious files, with a focus on understanding **execution, persistence, network activity, obfuscation, and defensive controls**.
 
-### [PowerShell Fake Download Dropper](./Malware-Analysis/powershell-fake-download-dropper))
+### [PowerShell Fake Download Dropper](./Malware-Analysis/powershell-fake-download-dropper/report))
 
 **Malware triage and security assessment of a PowerShell-based fake download/dropper.**
 
