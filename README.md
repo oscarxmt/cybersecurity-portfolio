@@ -1,47 +1,102 @@
 # Oscarxmt's Cybersecurity Portfolio
 
-My cybersecurity portfolio documenting my projects, labs, research,
-and ongoing learning in cybersecurity, GRC, and security analysis.
+A practical cybersecurity portfolio documenting my projects, labs, research, and ongoing learning in **cybersecurity, GRC, malware analysis, and security operations**.
 
-## About
+I'm a student building hands-on experience through personal labs, security investigations, scripting, and technical research.
 
-I'm a student learning cybersecurity through practical projects,
-labs, experimentation, and research.
+## 🔐 Malware Analysis
 
-## Projects
+Hands-on analysis of suspicious and malicious files, with a focus on understanding **execution, persistence, network activity, obfuscation, and defensive controls**.
 
-### GRC
-- PowerShell Malware Triage / Static Analysis
+### [PowerShell Fake Download Dropper](./malware-analysis/powershell-fake-download-dropper)
 
-### Malware Analysis
-- ...
+**Malware triage and security assessment of a PowerShell-based fake download/dropper.**
 
-### Blue Team
-- ...
+The investigation covers:
 
-### Networking
-- ...
+* Static analysis
+* PowerShell analysis
+* Obfuscation and encoded payloads
+* Payload extraction and analysis
+* Network and infrastructure indicators
+* MITRE ATT&CK mapping
+* Defensive controls and mitigations
+* GRC-oriented risk assessment
 
-### Programming
-- ...
+📄 **[Read the full analysis](./malware-analysis/powershell-fake-download-dropper/README.md)**
 
-## Labs & Training
+---
 
-- Hack The Box
-- TryHackMe
-- Personal labs
+## 🛡️ GRC & Security Assessment
 
-## Research
+Projects focused on identifying risks, analyzing security controls, and translating technical findings into practical security recommendations.
 
-- ...
+* PowerShell Malware Triage / Security Assessment
+* Risk identification and mitigation
+* Security control mapping
+* MITRE ATT&CK
+* Defensive recommendations
 
-## Skills
+## 🔵 Blue Team
 
-- Linux
-- Windows
-- Networking
-- Python
-- PowerShell
-- Malware Analysis
-- GRC
-- Security Analysis
+Defensive security projects, detection research, and investigation exercises.
+
+* ...
+
+## 🌐 Networking
+
+Projects and labs covering networking fundamentals relevant to cybersecurity.
+
+* Python subnet calculator
+* TCP/IP and OSI model studies
+* Wireshark analysis
+* DNS, ARP, and network fundamentals
+* ...
+
+## 💻 Programming & Scripting
+
+Programming projects used to build practical cybersecurity skills.
+
+* Python
+* PowerShell
+* Bash
+* ...
+
+## 🧪 Labs & Training
+
+Hands-on learning through intentionally vulnerable environments and security platforms.
+
+* Hack The Box
+* TryHackMe
+* Personal malware-analysis lab
+* Virtualized Windows / Linux environments
+* REMnux analysis environment
+
+## 📚 Research
+
+Notes and investigations into cybersecurity topics that I'm actively learning.
+
+* Malware analysis
+* Cybersecurity concepts
+* GRC
+* Networking
+* AI & cybersecurity
+* ...
+
+## 🧰 Skills
+
+**Security:** Malware Analysis · GRC · Security Analysis · MITRE ATT&CK
+
+**Systems:** Windows · Linux · Virtualization
+
+**Networking:** TCP/IP · DNS · ARP · Wireshark · Subnetting
+
+**Programming:** Python · PowerShell
+
+## 🎯 Current Focus
+
+Currently focused on building practical experience in:
+
+**Malware Analysis → Blue Team → GRC / Risk Assessment**
+
+This portfolio is continuously updated as I learn, build, and investigate new security topics.
