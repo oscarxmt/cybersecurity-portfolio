@@ -1,0 +1,17 @@
+title: Process Execution From A Temp Directory
+id: 29156d6e-d47c-43dd-9eca-68ac9dcf2813
+status: experimental
+description: Detects executables launched from a path containing a Temp directory.
+author: Blue Team Lab
+date: 2026-10-15
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection:
+        Image|contains: '\Temp\'
+    condition: selection
+falsepositives:
+    - Installers and software updaters
+    - Legitimate portable applications
+level: low

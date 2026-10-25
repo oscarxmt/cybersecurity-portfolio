@@ -1,0 +1,22 @@
+title: PowerShell EncodedCommand Parameter
+id: cbb398cc-ed3a-4b31-b921-a0edb91967fb
+status: experimental
+description: Detects the full EncodedCommand parameter in a PowerShell command line.
+author: Blue Team Lab
+date: 2026-10-15
+tags:
+    - attack.execution
+    - attack.t1059.001
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection:
+        Image|endswith:
+            - '\powershell.exe'
+            - '\pwsh.exe'
+        CommandLine|contains: ' -EncodedCommand '
+    condition: selection
+falsepositives:
+    - Legitimate automation using encoded commands
+level: medium

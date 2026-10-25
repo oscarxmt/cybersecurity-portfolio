@@ -1,0 +1,21 @@
+title: Scheduled Task Creation Via Schtasks
+id: 76de84bf-840d-4d97-b6b2-8aa3fed4ea68
+status: experimental
+description: Detects schtasks being invoked to create a task; does not prove creation succeeded.
+author: Blue Team Lab
+date: 2026-10-15
+tags:
+    - attack.execution
+    - attack.persistence
+    - attack.t1053.005
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection:
+        Image|endswith: '\schtasks.exe'
+        CommandLine|contains: '/create'
+    condition: selection
+falsepositives:
+    - Legitimate administrator and software installation activity
+level: low
